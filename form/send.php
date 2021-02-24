@@ -10,12 +10,12 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
- $recaptcha_url      = 'https://www.google.com/recaptcha/api/siteverify';
- $recaptcha_secret   = '6Lf2h6oUAAAAALsVJebVeQ3f2g41SVR7YpSAE4-4';
- $recaptcha_response = $_POST['recaptcha_response'];
+//  $recaptcha_url      = 'https://www.google.com/recaptcha/api/siteverify';
+//  $recaptcha_secret   = '6Lf2h6oUAAAAALsVJebVeQ3f2g41SVR7YpSAE4-4';
+//  $recaptcha_response = $_POST['recaptcha_response'];
 
- $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
- $recaptcha = json_decode($recaptcha);
+//  $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+//  $recaptcha = json_decode($recaptcha);
 
 //  if ($recaptcha->score >= 0.5) {
 
